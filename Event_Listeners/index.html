@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Event Listeners</title>
+</head>
+<body>
+    <button id="magic">Magic</button>
+
+    <button type="button" id="presto">Presto...</button>
+    <button type="button" id="abra">Abra...</button>
+
+    <!-- Event Propogation. Look at script.js -->
+    <div id="outerDiv">
+        OUTER DIV
+        <div id="innerDiv">
+            INNER DIV
+            <p id="paragraph">Paragraph</p>
+        </div>
+    </div>
+
+    <!-- Glimpse into form input fields -->
+    <form id="form">
+        <label for="fName">Name</label>
+        <input type="text" id="firstName" name="fName"/>
+        <input type="text" id="lastName" name="lName" />
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Timer/Clock using setInterval -->
+    <div id="timer">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#outerDiv {
+    border: 2px solid blue;
+}
+
+#innerDiv {
+    border: 2px solid green;
+}
+
+#paragraph {
+    border: 2px solid orange;
+}
